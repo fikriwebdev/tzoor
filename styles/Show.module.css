@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.show {
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+}
+.show__container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.show__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.show__title {
+  font-size: 30px;
+  font-weight: 600px;
+  line-height: 45px;
+  letter-spacing: 0.5%;
+  color: #222d33;
+}
+
+.show__content {
+  margin-top: 30px;
+}
+
+.show__contentContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.show__contentCard {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.show__contentImage {
+  height: 174px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.show__contentDescription {
+  background: white;
+  height: 120px;
+  line-height: 0;
+  margin: 16px 24px;
+}
+
+.priceRating {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.display__disc {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  position: absolute;
+  top: 0;
+  margin: 12px 34px;
+}
+
+.save__button {
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,24 @@
+.hero__container {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.hero__banner {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero__image {
+  position: absolute;
+}
+
+.hero__title {
+  position: absolute;
+  bottom: 5px;
+  margin-left: 25px;
+  color: white;
+  font-size: 16px;
+  line-height: 18.75px;
+}
